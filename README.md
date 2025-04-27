@@ -6,3 +6,7 @@ The goal of this project is to implement the Minimax algorithm, optimized with a
 The game has a board that shows where the marbles are. There are also 8 buttons to turn each part of the board, either clockwise or counter-clockwise.
 ## Data Structure
 The data structure is very important in my game. It is not just about where the marbles are, but also about turning them. I had two choices: first, I could make four small grids, one for each part. Second, I could make one big 6x6 grid. After trying both, I chose the second one. 
+### Game Board
+0: Empty space
+1: Black marble
+2: White marble (AI)
