@@ -48,9 +48,14 @@ From this evaluation, the AI chooses the best rotation using another method.
 ### Scores Given in the Evaluation Function
 
 5 marbles in a row = +1000 (AI) and -1000 (human)
+
 4 marbles in a row with 1 empty = +250 (AI) and -250 (human)
+
 3 marbles in a row with 2 empties = +50 (AI) and -50 (human)
+
 2 marbles in a row with 3 empties = +10 (AI) and -10 (human)
+
 Center position bonus = +20 (AI) and -20 (human)
+
 Each score is made to help the AI win and to block the human player from winning.
 
